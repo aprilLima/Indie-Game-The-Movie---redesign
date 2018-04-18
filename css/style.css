@@ -1,0 +1,157 @@
+/*
+April Lima
+general style.css for Indie Game: The Movie website redesign;
+*/
+
+	body
+	{
+		background-image: url('../images/background.jpg');
+		background-color: #003b77;
+	}
+
+	#container
+	{
+		width: 1280px;
+		background-image: url('../images/borderbackdrop.jpg'); 
+		background-color: white;
+		margin: 0px auto 0px auto;
+		position: relative;
+		z-index: 0;
+	}
+
+	#container h1
+	/*#container h1 is for the title of each page (ie: Home, Games, About, etc)*/
+	{
+		font-size: 36pt;
+		margin-top: 0px;
+		padding-top: 50px;
+		font-family: 'Permanent Marker', cursive;
+	}
+
+
+
+
+
+/* Header stuff */
+
+	body
+	{
+		position: relative;
+		background-color: #003c78;
+	}
+
+	header
+	{
+		width: 100%;
+		height: 95px;
+		background-color: #007eea;
+		position: absolute;
+		top: 0px;
+		z-index: 10;
+		box-shadow: 5px 0px 15px #000;
+		
+	}
+
+	#header
+	/*For the logo and nav */
+	{
+		width: 1280px;
+		height: 95px;
+		margin: 0 auto;
+	}
+
+	#logo
+	{
+		float: left;
+		margin-left: 23px;
+	}
+
+	#nav
+	{
+		float: right;
+		margin-top: 38px;
+	}
+	#nav a:link
+	{
+		margin-right: 35px;
+	}
+
+
+
+
+/* Footer stuff */
+	footer
+	{
+		width: 100%;
+		background-color: #007eea;
+		height: 40px;
+		margin: 20px auto 0px auto;
+		font-family: courier;
+		font-size: 12px;
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 5px;
+		position: absolute; 
+		bottom: 0px;
+		z-index: 10;
+	}
+
+
+
+
+
+/* content stuff */
+
+	#content
+	{
+		width: 980px;
+		margin: 0 auto;
+		padding-top: 40px;
+		position: relative;
+		z-index: 0;
+	}
+
+	#content h1
+	/*font similar to Chalk It Up*/
+	{
+		margin-top: 40px;
+		font-family: 'Walter Turncoat', cursive;
+	}
+
+	#container h2
+	/*font similar to sketchtica*/
+	{
+		font-family: 'Cabin Sketch', cursive;
+		font-size: 26px;
+	}
+
+	#content p
+	{
+		font-family: courier;
+		font-size: 15px;
+	}
+
+	#content a
+	{
+		color: #007eea;
+		text-decoration: none;
+		font-family: courier;
+	}
+
+	figcaption
+	{
+		font-size: 13px;
+		font-family: courier;
+		font-weight: bold;
+	}
+
+	.divider
+	/*this is the image divider line*/
+		{
+			width: 100%;
+			margin: 0 auto;
+		}
+
+
+
+

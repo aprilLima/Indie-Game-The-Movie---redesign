@@ -1,0 +1,214 @@
+<!-- 
+April Lima
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Games - Indie Game: The Movie</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+
+	<style>
+
+		#container
+		{
+			height: 1130px;
+		}
+		
+		.game
+		{
+			height: 240px;
+			margin-bottom: 28px;
+		}
+
+		.screenshot
+		{
+			width: 600px;
+			height: 100%;
+			float: left;
+			margin: 0 auto;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+		.description
+		{
+			width: 340px;
+			height: 100%;
+			float: left;
+		}
+
+		.description h2
+		{
+			font-size: 24px;
+		}
+
+		.description p
+		{
+			font-size: 15px;
+			text-decoration: none;
+		}
+
+		.description a
+		{
+			font-size: 18px;
+		}
+		
+	</style>
+
+</head>
+
+
+
+<body>
+
+	<header>
+			<!-- start div header; for logo and nav -->
+			<div id = "header">
+
+				<div id = "logo">
+
+					<a href="index.html"><img src="images/logo.png" alt="Indie Game: The Movie logo"></a>
+
+				</div>
+				<!-- end div logo -->
+
+				<div id = "nav">
+
+					<a href="index.html" id = "index"><img src="images/home.png" alt="Home" onmouseover = "this.src='images/homehover.png'" onmouseout="this.src='images/home.png'"></a>
+					<a href="about.html" id = "about"><img src="images/about.png" alt="About" onmouseover = "this.src='images/abouthover.png'" onmouseout="this.src='images/about.png'"></a>
+					<a href="games.html" id = "games"><img src="images/games.png" alt="Games" onmouseover = "this.src='images/gameshover.png'" onmouseout="this.src='images/games.png'"></a>
+					<a href="media.html" id = "media"><img src="images/media.png" alt="Media" onmouseover = "this.src='images/mediahover.png'" onmouseout="this.src='images/media.png'"></a>
+					<a href="press.html" id = "press"><img src="images/press.png" alt="Press" onmouseover = "this.src='images/presshover.png'" onmouseout="this.src='images/press.png'"></a>
+					<a href="faqs.html" id = "faqs"><img src="images/faqs.png" alt="FAQs" onmouseover = "this.src='images/faqshover.png'" onmouseout="this.src='images/faqs.png'"></a>
+					<span><a href="buy.html" id = "buy"><img src="images/buy.png" alt="Buy" onmouseover = "this.src='images/buyhover.png'" onmouseout="this.src='images/buy.png'"></a></span>
+					<a href="contact.html" id = "contact"><img src="images/contact.png" alt="Contact" onmouseover = "this.src='images/contacthover.png'" onmouseout="this.src='images/contact.png'"></a>
+					
+				</div>
+				<!-- end div nav -->
+
+			</div>
+			<!-- end div header -->
+			
+	</header>
+
+
+	
+	<!-- start div container -->
+	<div id = "container">
+		
+
+		<div id = "content">
+			<h1>Games featured in this film: </h1>
+
+			<!-- start div game 
+			This will be using the class selector since we are using 3 games; 
+			3 similar formats, just using different games in each section -->
+			<div class = "game">
+				<!-- For the game screenshot -->
+				<div class = "screenshot">
+					<img src="images/games/supermeatboy.png" alt="Super Meat Boy screenshot">
+				</div>
+
+				<!-- For text decsription of the game -->
+				<div class = "description">
+					<h2>Super Meat Boy</h2>
+
+				<p>
+					Super Meat Boy must leap from walls, 
+					over seas of buzz saws, through 
+					crumbling caves, and pools of old 
+					needles to save his girlfriend. 
+					Experience the old school difficulty 
+					of classic platforming games.
+				</p>
+
+					<p><a href="http://store.steampowered.com/app/40800/" target = "blank"><strong>Buy it on Steam</strong></a></p>
+
+				</div>
+
+			</div>
+
+
+
+			<!-- 2nd div game -->
+			<div class = "game">
+				<!-- For the game screenshot -->
+				<div class = "screenshot">
+					<img src="images/games/fez.png" alt="">
+				</div>
+
+				<!-- For text decsription of the game -->
+				<div class = "description">
+					<h2>FEZ</h2>
+
+					<p>
+						When the existence of a mysterious 
+						3rd dimension is revealed to Gomez, 
+						Gomez is sent out on a journey that 
+						will take him to the very end of time 
+						and space. Use your ability to 
+						navigate 3D structures from 4 
+						distinct classic 2D perspectives.
+					</p>
+
+					<p><a href="http://store.steampowered.com/app/224760/" target = "blank"><strong>Buy it on Steam</strong></a></p>
+
+				</div>
+
+			</div>
+
+
+
+			<!-- 3rd div game -->
+			<div class = "game">
+				<!-- For the game screenshot -->
+				<div class = "screenshot">
+					<img src="images/games/braid.png" alt="">
+				</div>
+
+				<!-- For text decsription of the game -->
+				<div class = "description">
+					<h2>Braid</h2>
+
+					<p>
+						A puzzle-platformer where you can
+						manipulate the flow of time in 
+						strange and unusual ways. Journey 
+						to a series of worlds and solve 
+						puzzles to rescue an abducted 
+						princess.
+					</p>
+
+					<p><a href="http://store.steampowered.com/app/26800/" target = "blank"><strong>Buy it on Steam</strong></a></p>
+					
+				</div>
+
+			</div>
+			<!-- end divs games -->
+
+		</div>
+		<!-- end div content -->
+
+
+
+		<footer>
+			<p><strong>COPYRIGHT © 2012, BLINKWORKS. ALL RIGHTS RESERVED. INDIE GAME: THE MOVIE - A VIDEO GAME DOCUMENTARY</strong></p>
+		</footer>
+
+	</div>
+	<!-- end div container -->
+
+
+</body>
+
+
+
+</html>

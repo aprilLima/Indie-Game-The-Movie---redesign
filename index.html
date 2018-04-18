@@ -1,0 +1,310 @@
+<!-- 
+April Lima
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Indie Game: The Movie</title>
+
+	<!-- File links -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/lightbox.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<!-- Font links -->
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+
+	<style>
+		#container h2
+		{
+			font-size: 16px;
+		}
+
+		#content
+		{
+			width: 1100px;
+		}
+
+		#feature
+		{
+			width: 1000px;
+			height: 400px;
+			margin: 100px auto 0 auto;
+			background-image: url('images/home/outsidecarouselwider.png');
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+		}
+
+		#feature a
+		{
+			padding: 15px 0 0 1px;
+		}
+
+		.laurels
+		{
+			width: 800px;
+			height: 100px;
+			margin: 15px auto 75px auto;
+			position: relative;
+		}
+
+		.laurel
+		{
+			float: left;
+		}
+
+		.laurel.middle
+		{
+			position: absolute;
+			left: 342px;
+		}
+
+		.laurel.right
+		{
+			float: right;
+		}
+
+		.synopsis
+		{
+			text-align: center;
+			width: 800px;
+			margin: 0 auto 5px auto;
+			font-size: 18px;
+		}
+
+		.quotes
+		{
+			background-image: url('images/home/quotesbackground.jpg');
+			background-repeat: no-repeat;
+			background-position: center bottom;
+			height: 300px;
+		}
+
+		.quotesContainer
+		{
+			width: 800px;
+			margin: 20px auto 0 auto;
+			background-color: #ccc;
+		}
+
+		.quote
+		{
+			width: 33%;
+			margin-top: 60px;
+			float: left;
+			text-align: center;
+		}
+
+		.quote.left
+		{
+			background-image: url('images/home/leftquote.png');
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		.quote.middle
+		{
+			background-image: url('images/home/middlequote.png');
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		.quote.right
+		{
+			background-image: url('images/home/rightquote.png');
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+
+		/*Carousel stuff*/
+		.mySlides {display:none}
+		.w3-left
+		{
+			/*cursor:pointer*/
+			width: 70px;
+			height: 70px;
+			background-image: url('images/home/leftarrow.png');
+			background-repeat: none;
+			background-size: 70px 70px;
+		}
+		.w3-right
+		{
+			/*cursor:pointer*/
+			width: 70px;
+			height: 70px;
+			background-image: url('images/home/rightarrow.png');
+			background-repeat: none;
+			background-size: 70px 70px;
+		}
+		.w3-badge {height:13px;width:13px;padding:0; margin-top: 30px; cursor: pointer;}		
+
+	</style>
+
+</head>
+
+
+
+
+
+<body>
+	<header>
+			<!-- start div header; for logo and nav -->
+			<div id = "header">
+
+				<div id = "logo">
+
+					<a href="index.html"><img src="images/logo.png" alt="Indie Game: The Movie logo"></a>
+
+				</div>
+				<!-- end div logo -->
+
+				<div id = "nav">
+					<a href="index.html" id = "index"><img src="images/home.png" alt="Home" onmouseover = "this.src='images/homehover.png'" onmouseout="this.src='images/home.png'" ></a> 
+					<a href="about.html" id = "about"><img src="images/about.png" alt="About" onmouseover = "this.src='images/abouthover.png'" onmouseout="this.src='images/about.png'"></a>
+					<a href="games.html" id = "games"><img src="images/games.png" alt="Games" onmouseover = "this.src='images/gameshover.png'" onmouseout="this.src='images/games.png'"></a>
+					<a href="media.html" id = "media"><img src="images/media.png" alt="Media" onmouseover = "this.src='images/mediahover.png'" onmouseout="this.src='images/media.png'"></a>
+					<a href="press.html" id = "press"><img src="images/press.png" alt="Press" onmouseover = "this.src='images/presshover.png'" onmouseout="this.src='images/press.png'"></a>
+					<a href="faqs.html" id = "faqs"><img src="images/faqs.png" alt="FAQs" onmouseover = "this.src='images/faqshover.png'" onmouseout="this.src='images/faqs.png'"></a>
+					<span><a href="buy.html" id = "buy"><img src="images/buy.png" alt="Buy" onmouseover = "this.src='images/buyhover.png'" onmouseout="this.src='images/buy.png'"></a></span>
+					<a href="contact.html" id = "contact"><img src="images/contact.png" alt="Contact" onmouseover = "this.src='images/contacthover.png'" onmouseout="this.src='images/contact.png'"></a>
+					
+				</div>
+				<!-- end div nav -->
+
+			</div>
+			<!-- end div header -->
+			
+	</header>
+
+
+
+	<!-- start div container -->
+	<div id = "container">
+		<!-- start div content -->
+		<div id = "content">
+			<!-- CONTENT GOES HERE -->
+			<div id="feature">
+				<!-- Carousel thumbnail is 950 x 350px.  -->
+				<!-- When clicked on, the original, uncropped version of the image is shown in a lightbox. -->
+
+				<div class="w3-content w3-display-container" style="max-width:950px; max-height: 350px;">
+					<a href="images/home/image1.jpg" data-lightbox = "featured"><img class="mySlides" src="images/home/carousel1.jpg" style="width:950px; height: 350px;"></a>
+					<a href="images/home/image2.jpg" data-lightbox = "featured"><img class="mySlides" src="images/home/carousel2.jpg" style="width:950px; height: 350px;"></a>
+					<a href="images/home/image3.jpg" data-lightbox = "featured"><img class="mySlides" src="images/home/carousel3.jpg" style="width:950px; height: 350px;"></a>
+					<a href="images/home/image4.jpg" data-lightbox = "featured"><img class="mySlides" src="images/home/carousel4.jpg" style="width:950px; height: 350px;"></a>
+				 
+					<div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:900px">
+						<div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
+						<div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
+						<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+						<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+						<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+						<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+					</div>
+				</div>
+				<!-- end div w3-content w3-display-container -->
+				<!-- end carousel stuff -->
+			</div>
+			<!-- end div feature -->
+
+
+
+
+
+			<div class="laurels">
+				<div class = "laurel left"><img src="images/home/leftlaurel.png" alt="Official Selection 2012 Sundance Film Festival"></div>
+				
+				<div class = "laurel middle"><img src="images/home/middlelaurel.png" alt="Official Selection SXSW Film Festival"></div>
+				
+				<div class = "laurel right"><img src="images/home/rightlaurel.png" alt="Winner Sundance: World Cinema Documentary Editing Award"></div>
+			</div>
+
+			<div class="synopsis">
+				<p style = "font-size: 18px;">The emotional journey of four developers as they sacrifice money, health, 
+				<br>and sanity to realize their lifelong dreams of sharing their games 
+				<br>with the world.</p>
+			</div>
+		</div>
+		<!-- end div content -->
+
+
+
+		<div class="quotes">
+		<!-- div quote is used for the background image -->
+			<div class="quotesContainer">
+				<div class="quote left">
+					<h2>"Smart, involving... 
+					<br>enlightening"
+					<br>- Los Angeles Times</h2>
+				</div>
+
+				<div class="quote middle">
+					<h2>"Compelling glimpse into
+					<br>artistic compulsion in 
+					<br>video games" 
+					<br>- The Hollywood Reporter </h2>
+				</div>
+
+				<div class="quote right">
+					<h2>"Indie Game... lays bare the
+					<br>passion behind the pixels"
+					<br>- The New York Times</h2>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<p><strong>COPYRIGHT © 2012, BLINKWORKS. ALL RIGHTS RESERVED. INDIE GAME: THE MOVIE - A VIDEO GAME DOCUMENTARY</strong></p>
+		</footer>
+
+	</div>
+	<!-- end div container -->
+
+
+
+
+<!-- javascript for the lightbox -->
+<script src = "js/lightboxplusjquery.js"></script>
+
+<!-- javascript for the carousel -->
+<script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+	  showDivs(slideIndex += n);
+	}
+
+	function currentDiv(n) {
+	  showDivs(slideIndex = n);
+	}
+
+	function showDivs(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("demo");
+	  if (n > x.length) {slideIndex = 1}    
+	  if (n < 1) {slideIndex = x.length}
+	  for (i = 0; i < x.length; i++) {
+	     x[i].style.display = "none";  
+	  }
+	  for (i = 0; i < dots.length; i++) {
+	     dots[i].className = dots[i].className.replace(" w3-white", "");
+	  }
+	  x[slideIndex-1].style.display = "block";  
+	  dots[slideIndex-1].className += " w3-white";
+	}
+</script>
+	
+</body>
+
+
+
+</html>

@@ -1,0 +1,238 @@
+<!-- 
+April Lima
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Media - Indie Game: The Movie</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+
+	<style>
+		#container
+		{
+			height: 1550px;
+		}
+
+		#content
+		{
+			height: 1500px;
+		}
+
+		#content h1
+		{
+			margin-top: -50px;
+		}
+
+		#content a
+		{
+			font-size: 14px;
+			font-weight: bold;
+		}
+
+		#feature
+		{
+			width: 855px;
+			height: 400px;
+			margin: 100px auto 0 auto;
+			background-image: url('images/featureborder.jpg');
+			background-repeat: no-repeat;
+		}
+
+		#feature a img
+		{
+			padding-left: 25px;
+			padding-top: 20px;
+			transition: all .1s ease-in-out;
+		}
+		/*Media's feature image has a shrinking hover transition.*/
+		#feature a img:hover
+		{
+			transform: scale(0.95);			
+		}
+
+		#videos
+		{
+			width: 736px;
+			height: 750px;
+			margin: 0 auto;
+		}
+
+		.videoRow
+		{
+			width: 100%;
+			height: 185px;
+			margin-bottom: 15px;
+			padding-top: 1px;
+		}
+
+		.video
+		{
+			width: 33%;
+			height: 100%;
+			float: left;
+			margin: 1px 0 2px 2px;
+		}
+
+		.video img
+		{
+			border: 1px solid black;
+		}
+
+		.video p
+		{
+			width: 200px;
+		}
+
+
+	</style>
+
+</head>
+
+
+
+<body>
+	<header>
+			<!-- start div header; for logo and nav -->
+			<div id = "header">
+
+				<div id = "logo">
+
+					<a href="index.html"><img src="images/logo.png" alt="Indie Game: The Movie logo"></a>
+
+				</div>
+				<!-- end div logo -->
+
+				<div id = "nav">
+
+					<a href="index.html" id = "index"><img src="images/home.png" alt="Home" onmouseover = "this.src='images/homehover.png'" onmouseout="this.src='images/home.png'"></a>
+					<a href="about.html" id = "about"><img src="images/about.png" alt="About" onmouseover = "this.src='images/abouthover.png'" onmouseout="this.src='images/about.png'"></a>
+					<a href="games.html" id = "games"><img src="images/games.png" alt="Games" onmouseover = "this.src='images/gameshover.png'" onmouseout="this.src='images/games.png'"></a>
+					<a href="media.html" id = "media"><img src="images/media.png" alt="Media" onmouseover = "this.src='images/mediahover.png'" onmouseout="this.src='images/media.png'"></a>
+					<a href="press.html" id = "press"><img src="images/press.png" alt="Press" onmouseover = "this.src='images/presshover.png'" onmouseout="this.src='images/press.png'"></a>
+					<a href="faqs.html" id = "faqs"><img src="images/faqs.png" alt="FAQs" onmouseover = "this.src='images/faqshover.png'" onmouseout="this.src='images/faqs.png'"></a>
+					<span><a href="buy.html" id = "buy"><img src="images/buy.png" alt="Buy" onmouseover = "this.src='images/buyhover.png'" onmouseout="this.src='images/buy.png'"></a></span>
+					<a href="contact.html" id = "contact"><img src="images/contact.png" alt="Contact" onmouseover = "this.src='images/contacthover.png'" onmouseout="this.src='images/contact.png'"></a>
+					
+				</div>
+				<!-- end div nav -->
+
+			</div>
+			<!-- end div header -->
+			
+	</header>
+
+
+
+	<!-- start div container -->
+	<div id = "container">
+		<!-- start div content -->
+		<div id = "content">
+			<!-- CONTENT GOES HERE -->
+			<div id="feature">
+				<a href = "https://vimeo.com/indiegame/videos" target = "blank"><img src="images/media/feature.jpg" alt="Check out out Vimeo channel"></a>
+			</div>
+
+
+
+			<h1>Videos</h1>
+
+
+
+			<!-- div videos -->
+			<div id="videos">
+				<!-- first videoRow -->
+				<div class="videoRow">
+					<div class="video">
+						<a href=""><img src="images/media/video1.jpg" alt="Video thumbnail"onmouseover = "this.src='images/media/video1hover.jpg'" onmouseout="this.src='images/media/video1.jpg'"></a>
+						<p><a href="">Official Trailer</a></p>
+					</div>
+
+					<div class="video">
+						<a href=""><img src="images/media/video2.jpg" alt="Video thumbnail"onmouseover = "this.src='images/media/video2hover.jpg'" onmouseout="this.src='images/media/video2.jpg'"></a>
+						<p><a href="">Original Launch Preview</a></p>
+					</div>
+
+					<div class="video">
+						<a href=""><img src="images/media/video3.jpg" alt="Video thumbnail"onmouseover = "this.src='images/media/video3hover.jpg'" onmouseout="this.src='images/media/video3.jpg'"></a>
+						<p><a href="">Super Meat Boy &amp; 'Control'</a></p>
+					</div>
+				</div>
+
+
+
+				<!-- second videoRow -->
+				<div class="videoRow">
+					<div class="video">
+						<a href=""><img src="images/media/video4.jpg" alt="Video thumbnail"onmouseover = "this.src='images/media/video4hover.jpg'" onmouseout="this.src='images/media/video4.jpg'"></a>
+						<p><a href="">Phil Fish Watches Indie Game: The Movie</a></p>
+					</div>
+
+					<div class="video">
+						<a href=""><img src="images/media/video5.jpg" alt="Video thumbnail"onmouseover = "this.src='images/media/video5hover.jpg'" onmouseout="this.src='images/media/video5.jpg'"></a>
+						<p><a href="">Adam Atomic Talks Canabalt</a></p>
+					</div>
+
+					<div class="video">
+						<a href=""><img src="images/media/video6.jpg" alt="Video thumbnail"onmouseover = "this.src='images/media/video6hover.jpg'" onmouseout="this.src='images/media/video6.jpg'"></a>
+						<p><a href="">World of Goo Goes iPad</a></p>
+					</div>
+				</div>
+
+
+
+				<!-- third videoRow -->
+				<div class="videoRow">
+					<div class="video">
+						<a href=""><img src="images/media/video7.jpg" alt="Video thumbnail"onmouseover = "this.src='images/media/video7hover.jpg'" onmouseout="this.src='images/media/video7.jpg'"></a>
+						<p><a href="">Phil &amp; Progress; February Update</a></p>
+					</div>
+
+					<div class="video">
+						<a href=""><img src="images/media/video8.jpg" alt="Video thumbnail"onmouseover = "this.src='images/media/video8hover.jpg'" onmouseout="this.src='images/media/video8.jpg'"></a>
+						<p><a href="">IGTM Hits the Road: A Gear Video</a></p>
+					</div>
+
+					<div class="video">
+						<a href=""><img src="images/media/video9.jpg" alt="Video thumbnail"onmouseover = "this.src='images/media/video9hover.jpg'" onmouseout="this.src='images/media/video9.jpg'"></a>
+						<p><a href="">IGTM Goes to PegJam</a></p>
+					</div>
+				</div>
+
+
+
+				<!-- fourth videoRow -->
+				<div class="videoRow">
+					<div class="video">
+						<a href=""><img src="images/media/video10.jpg" alt="Video thumbnail"onmouseover = "this.src='images/media/video10hover.jpg'" onmouseout="this.src='images/media/video10.jpg'"></a>
+						<p><a href="">Wolfire Presentation at Fantastic Fest 2010</a></p>
+					</div>
+				</div>
+
+			</div>
+			<!-- end div videos -->
+		</div>
+		<!-- end div content -->
+
+
+
+
+		<footer>
+			<p><strong>COPYRIGHT © 2012, BLINKWORKS. ALL RIGHTS RESERVED. INDIE GAME: THE MOVIE - A VIDEO GAME DOCUMENTARY</strong></p>
+		</footer>
+
+	</div>
+	<!-- end div container -->
+
+	
+</body>
+
+
+
+</html>
